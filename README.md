@@ -10,13 +10,17 @@ Esse projeto foi desenvolvido utilizando [Angular CLI](https://github.com/angula
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
 
+```bash
+npm run server
+```
+
+## Sobre
+
 Utiliza tailwind css
 
 Simula o banco de dados com json na pasta api e sobe com json-server
 
-```bash
-npm run server
-```
+Login com google: Google cloud console (OAuth2)
 
 ## Ambiente de desenvolvimento
 
@@ -32,5 +36,7 @@ Uma vez que o servidor esteja rodando é possível acessar a interface web no li
 
 1. Categoria
 2. Lugares
+### Ideias de evolução do app
 
-> Adicionar: validação de campos otimizada, conexão com banco de dados
+1. Validação de campos otimizada
+2. Conexão com banco de dados
