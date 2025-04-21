@@ -11,11 +11,6 @@
       "descricao": "Para alimentação."
     },
     {
-      "nome": "atualizadoo",
-      "id": "d194",
-      "descricao": "atualização 2"
-    },
-    {
       "id": "59b9",
       "nome": "Praia",
       "descricao": "Local para tomar banho de mar"
@@ -24,6 +19,32 @@
       "id": "1fb2",
       "nome": "Cinemas",
       "descricao": "Locais para ver filmes"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "4c6c",
+      "nome": "Parmegianno",
+      "localizacao": "Maceió",
+      "avaliacao": "5",
+      "urlFoto": "https://imgmd.net/images/v1/guia/1574127/parmegianno.jpg",
+      "categoria": "Restaurantes"
+    },
+    {
+      "id": "4f7f",
+      "nome": "Shopping Maceió",
+      "localizacao": "Maceió",
+      "avaliacao": "3",
+      "urlFoto": "https://www.2refresh.com.br/wp-content/uploads/2024/04/DSC05529.jpg",
+      "categoria": "Shoppings"
+    },
+    {
+      "id": "c5a1",
+      "nome": "Praia de Ipanema",
+      "localizacao": "Rio de Janeiro",
+      "avaliacao": "1",
+      "urlFoto": "https://www.maladeaventuras.com/wp-content/uploads/2018/10/melhores-praias-do-rio-de-janeiro-para-criancas.jpg",
+      "categoria": "Praia"
     }
   ]
 }

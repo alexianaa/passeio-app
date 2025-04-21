@@ -28,4 +28,9 @@ ng serve
 
 Uma vez que o servidor esteja rodando é possível acessar a interface web no link `http://localhost:4200/`. A aplicação irá atualizar automaticamente caso haja alguma alteração nos arquivos
 
-## Funcionalidades
+## Módulos
+
+1. Categoria
+2. Lugares
+
+> Adicionar: validação de campos otimizada, conexão com banco de dados
