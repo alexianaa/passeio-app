@@ -1,9 +1,29 @@
 {
   "categorias": [
     {
-      "id": 1,
+      "id": 2,
+      "nome": "Shoppings",
+      "descricao": "Para fazer compras e passear."
+    },
+    {
+      "id": 3,
       "nome": "Restaurantes",
-      "descricao": "Lugares para alimentação."
+      "descricao": "Para alimentação."
+    },
+    {
+      "nome": "atualizadoo",
+      "id": "d194",
+      "descricao": "atualização 2"
+    },
+    {
+      "id": "59b9",
+      "nome": "Praia",
+      "descricao": "Local para tomar banho de mar"
+    },
+    {
+      "id": "1fb2",
+      "nome": "Cinemas",
+      "descricao": "Locais para ver filmes"
     }
   ]
 }

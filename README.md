@@ -4,7 +4,7 @@
 
 Baixe [aqui](./public/demo.mp4) um vídeo curto demonstrando a aplicação. -->
 
-Desenvolvido para realizar estudos sobre angular com modularização.
+Desenvolvido para realizar estudos sobre angular com modularização (no-standalone).
 
 Esse projeto foi desenvolvido utilizando [Angular CLI](https://github.com/angular/angular-cli) na versão 19.2.8.
 
