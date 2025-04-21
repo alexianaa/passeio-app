@@ -1,4 +1,4 @@
-import { inject, Injectable, signal } from '@angular/core';
+import { inject, Injectable, OnInit, signal } from '@angular/core';
 import { OAuthService, AuthConfig } from 'angular-oauth2-oidc';
 import { auth } from './auth.config';
 import { Router } from '@angular/router';
@@ -12,7 +12,7 @@ export class AuthgoogleService {
   profile = signal<any>(null);
 
   constructor() { 
-  this.initConfiguration();
+    this.initConfiguration();
   }
 
   initConfiguration(){
