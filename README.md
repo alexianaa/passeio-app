@@ -12,6 +12,12 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 Utiliza tailwind css
 
+Simula o banco de dados com json na pasta api e sobe com json-server
+
+```bash
+npm run server
+```
+
 ## Ambiente de desenvolvimento
 
 Para poder abrir a aplicação localmente é necessário utilizar o comando: 
