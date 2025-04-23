@@ -22,7 +22,9 @@ Simula o banco de dados com json na pasta api e sobe com json-server
 
 Login com google: Google cloud console (OAuth2)
 
-## Ambiente de desenvolvimento
+## Ambiente 
+
+### Desenvolvimento
 
 Para poder abrir a aplicação localmente é necessário utilizar o comando: 
 
@@ -30,7 +32,29 @@ Para poder abrir a aplicação localmente é necessário utilizar o comando:
 ng serve
 ```
 
-Uma vez que o servidor esteja rodando é possível acessar a interface web no link `http://localhost:4200/`. A aplicação irá atualizar automaticamente caso haja alguma alteração nos arquivos
+```bash
+npm run server
+```
+
+Uma vez que o servidor esteja rodando é possível acessar a interface web no link `http://localhost:4200/`. A aplicação irá atualizar automaticamente caso haja alguma alteração nos arquivos.
+
+Assim como, é possível acessar os dados salvos no link `http://localhost:3000/`.
+
+### Produção
+
+Para poder abrir a aplicação simulando o ambiente de produção é necessário utilizar o comando: 
+
+```bash
+ng serve --configuration=production
+```
+
+```bash
+npm run server
+```
+
+Uma vez que o servidor esteja rodando é possível acessar a interface web no link `http://localhost:4200/`. A aplicação irá atualizar automaticamente caso haja alguma alteração nos arquivos.
+
+Assim como, é possível acessar os dados salvos no link `http://localhost:4000/`.
 
 ## Módulos
 
