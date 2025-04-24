@@ -1,8 +1,8 @@
 # PasseioApp
 
-<!-- ![Home](./public/home.png)
+![Home](./public/home.png)
 
-Baixe [aqui](./public/demo.mp4) um vídeo curto demonstrando a aplicação. -->
+Baixe [aqui](./public/demo.mp4) um vídeo curto demonstrando a aplicação.
 
 Desenvolvido para realizar estudos sobre angular com modularização (no-standalone).
 
@@ -21,6 +21,37 @@ Utiliza tailwind css
 Simula o banco de dados com json na pasta api e sobe com json-server
 
 Login com google: Google cloud console (OAuth2)
+
+Docker images e containers
+
+## Docker
+
+```bash
+ng build
+```
+
+Imagens:
+
+### API
+
+```bash
+cd api
+docker build --tag cursoangular-api .
+```
+
+- [cursoangular-api](./api/Dockerfile): Utiliza os arquivos json na porta 4000 com **json-server** (back)
+
+cursoangular-api-container: docker run -p 4000:4000 --name cursoangular-api-container -d cursoangular-api
+
+### APP
+
+```bash
+docker build --tag cursoangular-app .
+```
+
+- [cursoangular-app](./Dockerfile): Utiliza a pasta **dist/passeio-app/browser** com **NGINX** no **Docker** (front)
+
+cursoangular-app-container: docker run -p 4200:80 --name cursoangular-app-container -d cursoangular-app
 
 ## Ambiente 
 
@@ -60,6 +91,7 @@ Assim como, é possível acessar os dados salvos no link `http://localhost:4000/
 
 1. Categoria
 2. Lugares
+
 ### Ideias de evolução do app
 
 1. Validação de campos otimizada

@@ -1,0 +1,24 @@
+{
+  "categorias": [
+    {
+      "id": "59b9",
+      "nome": "Praias",
+      "descricao": "Local para tomar banho de mar"
+    },
+    {
+      "id": "1fb2",
+      "nome": "Cinemas",
+      "descricao": "Locais para ver filmes"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "c5a1",
+      "nome": "Praia de Ipanema",
+      "localizacao": "Rio de Janeiro",
+      "avaliacao": "1",
+      "urlFoto": "https://www.maladeaventuras.com/wp-content/uploads/2018/10/melhores-praias-do-rio-de-janeiro-para-criancas.jpg",
+      "categoria": "Praias"
+    }
+  ]
+}
