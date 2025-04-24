@@ -37,21 +37,19 @@ Imagens:
 ```bash
 cd api
 docker build --tag cursoangular-api .
+docker run -p 4000:4000 --name cursoangular-api-container -d cursoangular-api
 ```
 
 - [cursoangular-api](./api/Dockerfile): Utiliza os arquivos json na porta 4000 com **json-server** (back)
-
-cursoangular-api-container: docker run -p 4000:4000 --name cursoangular-api-container -d cursoangular-api
 
 ### APP
 
 ```bash
 docker build --tag cursoangular-app .
+docker run -p 4200:80 --name cursoangular-app-container -d cursoangular-app
 ```
 
 - [cursoangular-app](./Dockerfile): Utiliza a pasta **dist/passeio-app/browser** com **NGINX** no **Docker** (front)
-
-cursoangular-app-container: docker run -p 4200:80 --name cursoangular-app-container -d cursoangular-app
 
 ## Ambiente 
 
